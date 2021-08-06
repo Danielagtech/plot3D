@@ -1,0 +1,60 @@
+### Instalar librerías
+
+install.packages("viridis")
+install.packages("viridisLite")
+install.packages("tidyverse")
+install.packages("sf")
+install.packages("rayshader")
+install.packages("magick")
+install.packages("av")
+install.packages("ggplot2")
+install.packages('webshot')
+install.packages("devtools")
+install.packages('rgl')
+install.packages('ggforce')
+install.packages('scales')
+installed.packages('raster')
+install.packages('rworldxtra')
+
+### Activar librerías
+
+library(viridis)
+library(viridisLite)
+library(tidyverse)
+library(sf)
+library(rayshader)
+library(magick)
+library(av)
+library(ggplot2)
+library(webshot)
+library(rgl)
+library(ggforce)
+library(scales)
+library(raster)
+library(rworldxtra)
+library(sf)
+library(tidyverse)
+
+### Importar Shapefile
+
+shp = st_read(dsn = "eso.shp")
+print(shp)
+shp = mutate(shp, P = fosfo )
+
+ggShp = ggplot(data = shp) + 
+  geom_sf(aes(fill = Data)) + 
+  ggtitle("Variablidad del P") +
+ theme_test()
+
+ggplot() + geom_sf(data = shp, aes(fill = P))
+
+ggShp = ggplot() + geom_sf(data = shp, aes(fill = P)) + scale_fill_gradientn(name = "P ppm",colours = rainbow(10))
+
+print(ggShp)
+
+### Transformar a 3D funciona
+
+plot_gg(ggShp,multicore=TRUE,width=5,height=5, scale=400,windowsize=c(1280,720),
+        zoom = 0.65, phi = 50, sunangle = 20, theta= 45)
+render_snapshot()
+
