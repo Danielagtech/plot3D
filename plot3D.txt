@@ -1,4 +1,4 @@
-### Instalar librerías
+### Install packages
 
 install.packages("viridis")
 install.packages("viridisLite")
@@ -16,7 +16,7 @@ install.packages('scales')
 installed.packages('raster')
 install.packages('rworldxtra')
 
-### Activar librerías
+### Activate libraries
 
 library(viridis)
 library(viridisLite)
@@ -35,26 +35,33 @@ library(rworldxtra)
 library(sf)
 library(tidyverse)
 
-### Importar Shapefile
+# import data (you can use shp, csv, etc files)
 
 shp = st_read(dsn = "eso.shp")
 print(shp)
 shp = mutate(shp, P = fosfo )
 
+##create a graph with ggplot (1 desing)- you choose
+
 ggShp = ggplot(data = shp) + 
   geom_sf(aes(fill = Data)) + 
   ggtitle("Variablidad del P") +
  theme_test()
+ 
+##create a graph with ggplot (2 desing)- you choose
 
 ggplot() + geom_sf(data = shp, aes(fill = P))
+
+##create a graph with ggplot (3 desing) - you choose
 
 ggShp = ggplot() + geom_sf(data = shp, aes(fill = P)) + scale_fill_gradientn(name = "P ppm",colours = rainbow(10))
 
 print(ggShp)
 
-### Transformar a 3D funciona
+##create the graph in 3d
 
 plot_gg(ggShp,multicore=TRUE,width=5,height=5, scale=400,windowsize=c(1280,720),
         zoom = 0.65, phi = 50, sunangle = 20, theta= 45)
+
 render_snapshot()
 
