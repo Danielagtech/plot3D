@@ -1,0 +1,1 @@
+Los archivos csv se obtienen de una base de datos que almancena los resultados de los modelos aplicados. 
