@@ -1,0 +1,1 @@
+Los archivos en shp  incluyen mapas de cosecha y mapas de prescripciones en grilla de 20x20 o 10 x10 metros. 
