@@ -1,0 +1,77 @@
+Regiones,Cultivo,Tratamiento,Rinde,Dif
+Canals,Maiz_TD,Amistar,9.732,A
+Canals,Maiz_TD,Biotrac + Utrisha + Amistar,9.412,B
+Canals,Maiz_TD,Biotrac,9.852,B
+Canals,Maiz_TD,Utrisha,10.09,C
+Canals,Maiz_TD,Testigo,9.737,A
+Canals,Maiz_TD,Testigo,10.32,B
+Canals,Maiz_TD,Biotrac,10.24,B
+Canals,Maiz_TD,Utrisha,10.41,A
+Canals,Maiz_TD,Biotrac + Utrisha + Amistar,10.67,B
+Canals,Maiz_TD,Amistar,10.53,B
+Huinca,Maiz_TD,Biotrac,10.9,C
+Huinca,Maiz_TD,Testigo,9.99,A
+Huinca,Maiz_TD,Utrisha,10.74,B
+Huinca,Maiz_TD,Sphere max,11.25,B
+Huinca,Maiz_TD,Biotrac + Sphere + Utrisha,11.64,A
+Huinca,Maiz_TD,Sphere max,10.89,B
+Huinca,Maiz_TD,Biotrac + Sphere + Utrisha,11.18,B
+Huinca,Maiz_TD,Testigo,10.9,C
+Huinca,Maiz_TD,Biotrac,11.17,A
+Huinca,Maiz_TD,Utrisha,11.43,B
+Canals,Soja,Miravis+Virantra,4.145,B
+Canals,Soja,Miravis,3.903,C
+Canals,Soja,Glytrac + Biotrac + Miravis,3.952,A
+Canals,Soja,Glytrac,3.914,B
+Canals,Soja,Utrisha,3.908,D
+Canals,Soja,Testigo,3.822,C
+Caroya,Soja,Glytrac,4.08,A
+Caroya,Soja,Glytrac + Biotrac,3.92,B
+Caroya,Soja,Fungicida,4.467,D
+Caroya,Soja,Glytrac + Biotrac + Fungicida,4.392,C
+Caroya,Soja,Glytrac + Biotrac + Fungicida,3.915,A
+Caroya,Soja,Fungicida,4.166,B
+Caroya,Soja,Glytrac,4.262,D
+Caroya,Soja,Testigo,4.094,C
+Caroya,Soja,Testigo,3.989,A
+Caroya,Soja,Glytrac + Fungicida,3.724,B
+Caroya,Soja,Glytrac + Fungicida,4.333,D
+Caroya,Soja,Glytrac + Biotrac,4.145,C
+Caroya,Soja,Utrisha,3.802,A
+Caroya,Soja,Utrisha,3.964,B
+Charata,Soja,Glytrac,3.434,D
+Charata,Soja,Testigo,3.359,C
+Charata,Soja,Glytrac + Stinger + Biotrac,3.148,A
+Charata,Soja,Stinger,3.694,B
+Charata,Soja,Utrisha,3.228,D
+Charata,Soja,Glytrac + Stinger + Biotrac,3.168,C
+Charata,Soja,Glytrac,3.272,A
+Charata,Soja,Utrisha,2.673,B
+Charata,Soja,Testigo,2.524,D
+Charata,Soja,Stinger,3.222,C
+Caroya,Maiz_TD,Biotrac + Fungicida,4.077,A
+Caroya,Maiz_TD,Fungicida,4.124,B
+Caroya,Maiz_TD,Utrisha + Fungicida,3.854,D
+Caroya,Maiz_TD,Utrisha,4.05,C
+Caroya,Maiz_TD,Testigo,4.061,A
+Caroya,Maiz_TD,Biotrac,4.273,B
+Caroya,Maiz_TD,Utrisha,3.868,D
+Caroya,Maiz_TD,Biotrac,3.849,C
+Caroya,Maiz_TD,Testigo,4.145,A
+Caroya,Maiz_TD,Biotrac + Fungicida,4.224,B
+Caroya,Maiz_TD,Utrisha + Fungicida,3.834,D
+Caroya,Maiz_TD,Fungicida,3.753,C
+Laguna Larga,Soja,Glytrac,4.08,A
+Laguna Larga,Soja,Glytrac + Biotrac,3.92,B
+Laguna Larga,Soja,Fungicida,4.467,D
+Laguna Larga,Soja,Glytrac + Biotrac + Fungicida,4.392,C
+Laguna Larga,Soja,Glytrac + Biotrac + Fungicida,3.915,A
+Laguna Larga,Soja,Fungicida,4.166,B
+Laguna Larga,Soja,Glytrac,4.262,D
+Laguna Larga,Soja,Testigo,4.194,C
+Laguna Larga,Soja,Testigo,4.189,A
+Laguna Larga,Soja,Glytrac + Fungicida,3.724,B
+Laguna Larga,Soja,Glytrac + Fungicida,4.333,D
+Laguna Larga,Soja,Glytrac + Biotrac,4.145,C
+Laguna Larga,Soja,Utrisha,3.802,A
+Laguna Larga,Soja,Utrisha,3.964,B
